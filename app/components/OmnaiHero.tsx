@@ -19,32 +19,11 @@ export function OmnaiHero() {
 			<div className="relative z-10 flex flex-col items-center gap-12 px-6">
 				{/* Logo mark */}
 				<div className="relative">
-					<div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-[0_0_60px_rgba(99,102,241,0.4)]">
-						<svg
-							width="32"
-							height="32"
-							viewBox="0 0 32 32"
-							fill="none"
-							className="text-white"
-						>
-							<path
-								d="M16 4L28 28H4L16 4Z"
-								stroke="currentColor"
-								strokeWidth="2"
-								strokeLinejoin="round"
-								fill="none"
-							/>
-							<circle cx="16" cy="18" r="4" fill="currentColor" />
-						</svg>
-					</div>
-				</div>
-
-				{/* Wordmark */}
-				<div className="flex flex-col items-center gap-4">
-					<h1 className="text-5xl md:text-6xl font-light tracking-tight text-white">
-						Omnai
-					</h1>
-					<div className="w-8 h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
+					<img
+						src="./logo.png"
+						alt="Omnai"
+						className="w-64 h-64 object-contain"
+					/>
 				</div>
 
 				{/* Tagline */}
